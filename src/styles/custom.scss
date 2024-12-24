@@ -1,10 +1,60 @@
 // src/styles/custom.scss
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(160, 126, 190);
+  width: 100%;
+  height: 8000px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-image: url(https://blog.orange.es/wp-content/uploads/sites/4/2024/03/fondos-de-pantalla-3d-paisaje.jpg);
+  background-size: 100%;
+  background-attachment: scroll;
+  font-family: "Open Sans", serif;
 }
 
 .container {
-    margin-top: 20px;
+  margin-top: 20px;
+}
+
+.section-1 {
+  header {
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    position: fixed;
+    font-weight: 600;
+    
+
+    nav {
+      width: 1400px;
+      height: auto;
+      margin: auto;
+
+      ul {
+        li{
+            padding: 15px;
+        }
+        li a{
+          
+          transition: background-color 0.3s ease-in-out,
+            opacity 0.3s ease-in-out; /* Transición suave para el color y la opacidad */
+          border-radius: 10px;
+        }
+        li a:hover {
+          background-color: lightblue; /* Color de fondo al pasar el ratón */
+          opacity: 1; /* Opacidad completa */
+          border-radius: 10px;
+          
+          
+         
+        }
+       .btn-unirse{
+        background-color: rgb(175, 211, 223);
+       }
+       .btn-unirse:hover{
+        background-color: rgb(157, 187, 197);
+       } 
+      }
+    }
+  }
 }
