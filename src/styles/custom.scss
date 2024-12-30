@@ -23,19 +23,16 @@ body {
     backdrop-filter: blur(15px);
     position: fixed;
     font-weight: 600;
-    
 
     nav {
-      width: 1400px;
+      width: 1600px;
       height: auto;
-      margin: auto;
 
-      ul {
-        li{
-            padding: 15px;
+      .menu1 {
+        li {
+          padding: 10px;
         }
-        li a{
-          
+        li a {
           transition: background-color 0.3s ease-in-out,
             opacity 0.3s ease-in-out; /* Transición suave para el color y la opacidad */
           border-radius: 10px;
@@ -44,16 +41,43 @@ body {
           background-color: lightblue; /* Color de fondo al pasar el ratón */
           opacity: 1; /* Opacidad completa */
           border-radius: 10px;
-          
-          
-         
         }
-       .btn-unirse{
-        background-color: rgb(175, 211, 223);
-       }
-       .btn-unirse:hover{
-        background-color: rgb(157, 187, 197);
-       } 
+        
+      }
+
+       .menu2 {
+        li {
+          padding: 10px;
+        }
+        .btn-unirse {
+          transition: background-color 0.3s ease-in-out,
+          opacity 0.3s ease-in-out; /* Transición suave para el color y la opacidad */
+          border-radius: 10px;
+          background-color: rgb(175, 211, 223);
+          padding: 10px 20px 10px 20px;
+          text-align: center;
+          align-items: center;
+
+          .flecha{
+            border: 1px solid rgb(157, 187, 197);
+            background-color: rgb(157, 187, 197);
+            padding: 5px 12px 5px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out,
+          }
+        }
+        .btn-unirse:hover {
+          background-color: lightblue; /* Color de fondo al pasar el ratón */
+          opacity: 1; /* Opacidad completa */
+          border-radius: 10px;
+          background-color: rgb(157, 187, 197);
+
+          .flecha{
+            background-color: rgb(95, 154, 173);
+            opacity: 1; /* Opacidad completa */
+          }
+        }
+        
       }
     }
   }
