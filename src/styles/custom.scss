@@ -5,10 +5,13 @@ body {
   height: 8000px;
   margin: auto;
   font-family: Arial, sans-serif;
-  background-image: url(https://blog.orange.es/wp-content/uploads/sites/4/2024/03/fondos-de-pantalla-3d-paisaje.jpg);
-  background-size: 100%;
-  background-attachment: scroll;
   font-family: "Open Sans", serif;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
 }
 
 .container {
@@ -29,6 +32,38 @@ body {
       height: auto;
 
       .menu1 {
+        #menu3 {
+          width: 1300px;
+          height: 600px;
+          align-items: center;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+
+          .row {
+            width: 1100px;
+            object-fit: contain;
+            height: auto;
+            margin: 20px;
+            text-align: center;
+            align-items: center;
+          }
+          col {
+            width: 500px;
+            height: auto;
+            margin: auto;
+
+            .enlace-drop {
+            }
+          }
+          span {
+            font-size: 25px;
+            font-weight: 600;
+            text-align: center;
+            align-items: center;
+          }
+        }
+
         li {
           padding: 10px;
         }
@@ -42,28 +77,27 @@ body {
           opacity: 1; /* Opacidad completa */
           border-radius: 10px;
         }
-        
       }
 
-       .menu2 {
+      .menu2 {
         li {
           padding: 10px;
         }
         .btn-unirse {
           transition: background-color 0.3s ease-in-out,
-          opacity 0.3s ease-in-out; /* Transición suave para el color y la opacidad */
+            opacity 0.3s ease-in-out; /* Transición suave para el color y la opacidad */
           border-radius: 10px;
           background-color: rgb(175, 211, 223);
           padding: 10px 20px 10px 20px;
           text-align: center;
           align-items: center;
 
-          .flecha{
+          .flecha {
             border: 1px solid rgb(157, 187, 197);
             background-color: rgb(157, 187, 197);
             padding: 5px 12px 5px 12px;
             border-radius: 5px;
-            transition: background-color 0.3s ease-in-out,
+            transition: background-color 0.3s ease-in-out;
           }
         }
         .btn-unirse:hover {
@@ -72,13 +106,75 @@ body {
           border-radius: 10px;
           background-color: rgb(157, 187, 197);
 
-          .flecha{
+          .flecha {
             background-color: rgb(95, 154, 173);
             opacity: 1; /* Opacidad completa */
           }
         }
-        
       }
+    }
+  }
+}
+
+//SECCION 2-----------------------------------------
+
+.section2 {
+  width: 100%;
+  padding-top: 200px;
+  a,
+  li {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+  }
+  article {
+    width: 1500px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      font-size: 90px;
+      font-weight: 700;
+    }
+  }
+  .botones-seccion2 {
+    .btn-unirse {
+      transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Transición suave para el color y la opacidad */
+      border-radius: 10px;
+      background-color: rgb(175, 211, 223);
+      padding: 10px 20px 10px 20px;
+      text-align: center;
+      align-items: center;
+
+      .flecha {
+        border: 1px solid rgb(157, 187, 197);
+        background-color: rgb(157, 187, 197);
+        padding: 5px 12px 5px 12px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+      }
+    }
+    .btn-unirse:hover {
+      background-color: lightblue; /* Color de fondo al pasar el ratón */
+      opacity: 1; /* Opacidad completa */
+      border-radius: 10px;
+      background-color: rgb(157, 187, 197);
+
+      .flecha {
+        background-color: rgb(95, 154, 173);
+        opacity: 1; /* Opacidad completa */
+      }
+    }
+  }
+
+  .laptot {
+    width: 100%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    #mi-video {
+      margin: auto;
     }
   }
 }
