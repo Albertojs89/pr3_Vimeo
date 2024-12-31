@@ -26,6 +26,7 @@ a {
     backdrop-filter: blur(15px);
     position: fixed;
     font-weight: 600;
+    z-index: 100;
 
     nav {
       width: 1600px;
@@ -127,16 +128,23 @@ a {
     list-style: none;
     color: inherit;
   }
-  article {
+  .article2 {
     width: 1500px;
     margin: auto;
     align-items: center;
     text-align: center;
+    opacity: 0; /* Inicialmente, la sección está oculta */
+    transform: translateY(50px); /* Desplazamos la sección hacia abajo */
+    transition: all 0.3s ease-in-out; /* Agregamos una transición suave */
 
     h2 {
       font-size: 90px;
       font-weight: 700;
     }
+  }
+  .article2.visible {
+    opacity: 1;
+    transform: translateY(0);
   }
   .botones-seccion2 {
     .btn-unirse {
@@ -176,7 +184,6 @@ a {
     justify-content: center;
     #mi-video {
       margin-left: 30%;
-    
     }
   }
 }
