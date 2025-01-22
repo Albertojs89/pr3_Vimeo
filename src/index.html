@@ -12,8 +12,14 @@
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet"
   />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+    rel="stylesheet"
+  />
   <body>
-    <section class="section-1">
+    <section class="section-1 container-fluid">
       <header>
         <nav class="navbar navbar-expand-lg justify-content-center">
           <div class="container-fluid">
@@ -171,35 +177,37 @@
       </header>
     </section>
 
-    <!-- seccion 2  ------------------------------->
+    <!-- seccion 2 -------------------------------->
 
-    <section class="section2">
-      <article>
+    <section class="section2 container-fluid">
+      <article class="article2">
         <h2>Haga más con sus videos</h2>
         <p>
           Conozca la plataforma de video completa que puede transformar su
           manera de hacer negocios.
         </p>
+
+        <div class="botones-seccion2">
+          <ul class="d-flex justify-content-center">
+            <li class="nav-item mx-1 my-3">
+              <a class="nav-link active btn-unirse" aria-current="page" href="#"
+                >Ver planes <i class="fa-solid fa-arrow-right mx-2 flecha"></i
+              ></a>
+            </li>
+            <li class="nav-item mx-1 my-3">
+              <a class="nav-link active btn-unirse" aria-current="page" href="#"
+                >Unirse Gratis
+                <i class="fa-solid fa-arrow-right mx-2 flecha"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
       </article>
-      <div class="botones-seccion2">
-        <ul class="d-flex justify-content-center">
-          <li class="nav-item mx-1 my-3">
-            <a class="nav-link active btn-unirse" aria-current="page" href="#"
-              >Ver planes <i class="fa-solid fa-arrow-right mx-2 flecha"></i
-            ></a>
-          </li>
-          <li class="nav-item mx-1 my-3">
-            <a class="nav-link active btn-unirse" aria-current="page" href="#"
-              >Unirse Gratis <i class="fa-solid fa-arrow-right mx-2 flecha"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-      <div class="laptot">
+      <div class="container-portatil">
         <video
           id="mi-video"
           width="800"
-          height="600"
+          height="700"
           controls
           loop
           autoplay
@@ -207,7 +215,26 @@
         >
           <source src="public/videoBucle.mp4" type="video/mp4" />
         </video>
+        <img class="laptot" src="public/laptop.png" alt="">
+        
       </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+<!-- prueba seccion 3 -->
+    <section class="section3 container-fluid">
+      <article class="article2">
+        <h2>Esto es una prueba</h2>
+      </article>
     </section>
 
     <script type="module" src="/main.js"></script>
