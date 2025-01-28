@@ -227,6 +227,7 @@ a {
       font-size: 50px;
       text-align: center;
       align-items: center;
+      
     }
     p {
       color: white;
@@ -284,4 +285,29 @@ a {
       }
     }
   }
+}
+
+.section5{
+  width: 1300px;
+  padding-top: 150px;
+
+  aside{
+    align-items: center;
+    text-align: center;
+    p{
+      font-size: 25px;
+      color: rgb(102, 102, 102);
+      gap: 20px;
+    }
+    h2{
+      font-size: 75px;
+      font-weight: 500;
+      line-height: 1.1;
+    }
+  }
+}
+
+.section6{
+  width: 1600px;
+  padding-top: 150px;
 }
