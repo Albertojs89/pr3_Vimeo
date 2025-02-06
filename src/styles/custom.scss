@@ -379,16 +379,19 @@ a {
 .section7 {
   width: 1300px;
   padding-top: 150px;
-
+  
   aside {
     width: 800px;
     margin: auto;
     text-align: center;
+    
     p {
       font-size: 25px;
       color: rgb(102, 102, 102);
       gap: 20px;
+      
     }
+    
     h2 {
         
         font-size: 4.5rem;
@@ -396,13 +399,82 @@ a {
         letter-spacing: -.225rem;
         font-weight: 500;
     }
+
   }
 }
 
-.container-section7{
-
-  img{
-    width: 450px;
+.container-section7 {
+  img {
+    width: 410px;
     border-radius: 20px;
   }
+
+  .col h3 {
+    width: 400px;
+    font-size: 30px;
+    text-align: left!important;
+    margin-top: 30px;
+  }
+
+  .col p {
+    width: 300px;
+    text-align: left!important;
+    margin-top: 20px;
+    font-size: 19px;
+  }
+  .botones-seccion6 {
+          .btn1{
+            margin-top: 81px;
+          }
+          ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            .nav-item {
+              .nav-link {
+                border-radius: 10px;
+                background-color: rgb(175, 211, 223);
+                padding: 10px 20px 10px 20px;
+                text-decoration: none; /* Sin subrayado */
+                display: inline-block;
+                &:hover {
+                  background-color: rgb(
+                    127,
+                    171,
+                    185
+                  ); /* Color de fondo al pasar el ratón */
+                }
+              }
+            }
+          }
+        }
+}
+
+.section8{
+  .botones-seccion7 {
+  display: flex;
+  align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+  .btn1 {
+    margin-top: 81px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    .nav-item {
+      margin-right: 10px; /* Espacio entre los botones */
+      .nav-link {
+        border-radius: 10px;
+        background-color: rgb(175, 211, 223);
+        padding: 10px 20px;
+        text-decoration: none; /* Sin subrayado */
+        display: inline-block;
+        &:hover {
+          background-color: rgb(127, 171, 185); /* Color de fondo al pasar el ratón */
+        }
+      }
+    }
+  }
+}
 }
