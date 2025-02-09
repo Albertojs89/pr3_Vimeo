@@ -1,3 +1,4 @@
+@import 'bootstrap.scss';
 // src/styles/custom.scss
 
 body {
@@ -5,6 +6,7 @@ body {
   height: 8000px;
   margin: auto;
   font-family: "Lexend", serif;
+  
 }
 
 a {
@@ -195,10 +197,11 @@ a {
     }
   }
 }
-
+//Seccion 3-----------------------------------------
 .section3 {
   width: 100%;
   padding-top: 800px;
+  background-color: white;
   .article2 {
     width: 1500px;
     margin: auto;
@@ -243,7 +246,7 @@ a {
       .nav-item {
         .nav-link {
           border-radius: 10px;
-          background-color: rgb(175, 211, 223);
+          background-color: $colorGris;
           padding: 10px 20px 10px 20px;
           text-decoration: none; /* Sin subrayado */
           display: inline-block;
@@ -264,7 +267,7 @@ a {
 .section4 {
   width: 100%;
   padding-top: 200px;
-
+  background-color: rgb(248, 242, 242);
   article {
     h3 {
       font-size: 30px;
@@ -309,7 +312,13 @@ a {
   width: 1400px;
   padding-top: 150px;
   padding-bottom: 0;
+  overflow: hidden;
   article {
+    border: 1px solid rgb(248, 243, 243);
+    background-color: rgb(248, 243, 243);
+    border-radius: 40px;
+    margin-left: 20px;
+    padding-left: 0;
     img {
       width: 600px;
       height: auto;
@@ -330,6 +339,11 @@ a {
     .bloque {
       .col {
         margin-top: 30px;
+        border: 1px solid rgb(248, 243, 243);
+        background-color: rgb(248, 243, 243);
+        border-radius: 40px;
+        margin-right: 13px;
+        
         img {
           width: 620px;
           border-radius: 30px;
@@ -477,4 +491,9 @@ a {
     }
   }
 }
+}
+
+
+.section9{
+  margin-top: 100px;
 }
