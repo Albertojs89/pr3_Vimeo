@@ -347,6 +347,7 @@ a {
     
     .bloque {
       .col {
+        
         margin-top: 30px;
         border: 1px solid rgb(248, 243, 243);
         background-color: rgb(248, 243, 243);
@@ -358,19 +359,21 @@ a {
           border-radius: 30px;
         }
         h3 {
+          padding: 25px;
           font-size: 30px;
           font-weight: 500;
           margin-top: 40px;
-          margin-bottom: 30px;
+          margin-bottom: 10px;
         }
         p {
+          padding: 25px;
           width: 600px;
           font-size: 19px;
           font-weight: 400;
         }
         .botones-seccion6 {
           .btn1{
-            margin-top: 81px;
+            margin-top: 80px;
           }
           ul {
             list-style: none;
@@ -476,7 +479,8 @@ a {
 .section8{
   .botones-seccion7 {
   display: flex;
-  align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+  align-items: flex-start; 
+  
   .btn1 {
     margin-top: 81px;
   }
@@ -485,14 +489,17 @@ a {
     padding: 0;
     margin: 0;
     display: flex; /* Utiliza flexbox para alinear los elementos */
+    
     .nav-item {
       margin-right: 10px; /* Espacio entre los botones */
+      
       .nav-link {
         border-radius: 10px;
         background-color: rgb(175, 211, 223);
         padding: 10px 20px;
         text-decoration: none; /* Sin subrayado */
         display: inline-block;
+        
         &:hover {
           background-color: rgb(127, 171, 185); /* Color de fondo al pasar el ratón */
         }
@@ -698,5 +705,8 @@ a {
   h1{
     font-size: 50px;
     gap: 10;
+  }
+  img{
+    width: 500px;
   }
 }
