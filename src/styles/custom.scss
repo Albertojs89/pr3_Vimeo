@@ -188,8 +188,8 @@ a {
     #mi-video {
       position: absolute;
       z-index: 4;
-      right: 200px;
-      top: -90px;
+      right: 340px;
+      top: 100px;
     }
     .laptot {
       width: 100%;
@@ -829,4 +829,12 @@ a {
         }
         .btn-dark-custom:hover {
             background-color: #555;
+        }
+
+        .cajaSeccion11 {
+          min-height: 170px;
+
+          img {
+            border-radius: 15px;
+          }
         }
